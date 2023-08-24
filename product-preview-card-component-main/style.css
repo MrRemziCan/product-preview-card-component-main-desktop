@@ -1,0 +1,82 @@
+/* 
+font-family: 'Montserrat', sans-serif; 
+font-family: 'Fraunces', serif;
+- Font size (paragraph): 14px
+
+Color 
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+*/
+
+img {
+  width: 22.5rem;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  height: 100%;
+}
+
+.parag {
+  background-color: #fff;
+  padding: 1rem;
+  padding-left: 2rem;
+  width: 20rem;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.perfume {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 6px;
+  font-size: 8px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gabriel {
+  font-family: "Fraunces", serif;
+  font-size: 1.2rem;
+  width: 70%;
+  margin-bottom: 2rem;
+}
+.floral {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.preis {
+  display: flex;
+}
+
+.preis h1 {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+}
+
+.preis h3 {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn button {
+  padding: 1rem 5rem;
+  border-radius: 16px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
